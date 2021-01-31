@@ -1,8 +1,8 @@
 ## Drop down menu
 
 - [x] 2 steps drop down menu
-- [x] transition menu steps
-- [x]
+- [x] Transition effect on menu steps
+- [x] tailwindcss
 
 ## Inspired by fireship.io
 
