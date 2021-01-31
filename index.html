@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav bar</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <nav class="h-16 bg-black">
+      <ul class="h-full flex justify-end pt-1">
+        <li class="nav-item items-center w-20">
+          <a
+            class="w-14 h-14 text-xl bg-gray-800 hover:bg-gray-500 rounded-full flex justify-center items-center"
+            href="#"
+            >🤷‍♀️</a
+          >
+        </li>
+        <li class="nav-item items-center w-20">
+          <a
+            class="w-14 h-14 text-xl bg-gray-800 hover:bg-gray-500 rounded-full flex justify-center items-center"
+            href="#"
+            >🤷‍♂️</a
+          >
+        </li>
+        <li class="nav-item dropable nav-item w-20">
+          <a
+            class="toggle-btn w-14 h-14 text-xl bg-gray-800 hover:bg-gray-500 rounded-full flex justify-center items-center"
+            href="#"
+          >
+            🐱‍🏍
+          </a>
+          <div
+            class="dropdown w-64 p-5 mt-1 absolute transition-height hidden overflow-hidden text-2xl rounded-xl bg-gray-800 text-white transform -translate-x-48 border shadow-inner-lg"
+          >
+            <div class="main-menu transition-transform duration-30">
+              <a
+                class="dropdown-item rounded-xl p-3 hover:bg-gray-700 cursor-pointer flex items-center"
+              >
+                <span class="mr-2">🐱‍👤</span>
+                <span>Profile</span>
+                <!-- <span class="ml-auto">✔</span> -->
+              </a>
+              <a
+                class="setting-btn rounded-xl p-3 hover:bg-gray-700 dropdown-item cursor-pointer flex items-center"
+              >
+                <span class="mr-2">🐱‍👤</span>
+                <span>Setting</span>
+                <span class="ml-auto">✔</span>
+              </a>
+              <a
+                class="animal-btn rounded-xl p-3 hover:bg-gray-700 dropdown-item cursor-pointer flex items-center"
+              >
+                <span class="mr-2">🐱‍👤</span>
+                <span>Animal</span>
+                <span class="ml-auto">✔</span>
+              </a>
+            </div>
+            <div
+              class="setting-menu h-0 invisible transform translate-x-100p transition-transform duration-300"
+            >
+              <a class="dropdown-item flex items-center border-b-2 pb-2 mb-2">
+                <span class="backward cursor-pointer">◁</span>
+                <span class="text-base ml-auto">Go to Main</span>
+              </a>
+              <a
+                class="dropdown-item rounded-xl p-3 hover:bg-gray-700 cursor-pointer flex items-center"
+              >
+                <span class="mr-2">🌹</span>
+                <span>setting</span>
+                <span class="ml-auto">✔</span>
+              </a>
+              <a
+                class="dropdown-item rounded-xl p-3 hover:bg-gray-700 cursor-pointer flex items-center"
+              >
+                <span class="mr-2">🌹</span>
+                <span>setting</span>
+                <span class="ml-auto">✔</span>
+              </a>
+              <a
+                class="dropdown-item rounded-xl p-3 hover:bg-gray-700 cursor-pointer flex items-center"
+              >
+                <span class="mr-2">🌹</span>
+                <span>setting</span>
+                <span class="ml-auto">✔</span>
+              </a>
+            </div>
+
+            <div
+              class="animal-menu h-0 invisible transform translate-x-100p transition-transform duration-300"
+            >
+              <a class="dropdown-item flex items-center border-b-2 pb-2 mb-2">
+                <span class="backward cursor-pointer">◁</span>
+                <span class="text-base ml-auto">Go to Main</span>
+              </a>
+              <a
+                class="dropdown-item rounded-xl p-3 hover:bg-gray-700 cursor-pointer flex items-center"
+              >
+                <span class="mr-2">🎶</span>
+                <span>animal</span>
+                <span class="ml-auto">✔</span>
+              </a>
+              <a
+                class="dropdown-item rounded-xl p-3 hover:bg-gray-700 cursor-pointer flex items-center"
+              >
+                <span class="mr-2">🎶</span>
+                <span>animal</span>
+                <span class="ml-auto">✔</span>
+              </a>
+              <a
+                class="dropdown-item rounded-xl p-3 hover:bg-gray-700 cursor-pointer flex items-center"
+              >
+                <span class="mr-2">🎶</span>
+                <span>animal</span>
+                <span class="ml-auto">✔</span>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
