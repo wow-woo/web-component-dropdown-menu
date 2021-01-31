@@ -7,10 +7,12 @@
   "devDependencies": {
     "autoprefixer": "^10.2.4",
     "postcss": "^8.2.4",
+    "snowpack": "^3.0.11",
     "tailwindcss": "^2.0.2"
   },
   "scripts": {
-    "css": "tailwind build ./style.css -o ./index.css"
+    "css": "tailwind build ./style.css -o ./index.css",
+    "build": "snowpack build"
   },
   "keywords": [],
   "author": "",
